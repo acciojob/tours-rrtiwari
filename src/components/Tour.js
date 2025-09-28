@@ -33,7 +33,7 @@ function Tour(props) {
             onClick={toggleReadMore}
             style={{ textTransform: "none", marginLeft: 8 }}
           >
-            {readMore ? "See less" : "See more"}
+            {readMore ? "Show less" : "See more"}
           </Button>
         </Typography>
 
