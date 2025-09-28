@@ -1,0 +1,72 @@
+[
+  {
+    "id": "rec1",
+    "name": "Mount Fuji",
+    "info": "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters. It is a popular destination for climbers and tourists who want to enjoy its majestic views.",
+    "image": "https://images.unsplash.com/photo-1599173705513-0880f530cd3d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "1000"
+  },
+  {
+    "id": "rec2",
+    "name": "Great Wall of China",
+    "info": "The Great Wall of China stretches over 13,000 miles and is one of the most impressive architectural feats in human history. It was built to protect China from invasions.",
+    "image": "https://plus.unsplash.com/premium_photo-1664304492320-8359efcaad38?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "800"
+  },
+  {
+    "id": "rec3",
+    "name": "Eiffel Tower",
+    "info": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It has become a global cultural icon of France and one of the most recognizable structures in the world.",
+    "image": "https://images.unsplash.com/photo-1570097703229-b195d6dd291f?q=80&w=1544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "1200"
+  },
+  {
+    "id": "rec4",
+    "name": "Grand Canyon",
+    "info": "The Grand Canyon in Arizona, USA, is a natural wonder carved by the Colorado River. Visitors can hike, raft, or simply enjoy breathtaking panoramic views.",
+    "image": "https://plus.unsplash.com/premium_photo-1668703335393-a0749dbdd5ae?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "950"
+  },
+  {
+    "id": "rec5",
+    "name": "Machu Picchu",
+    "info": "Machu Picchu is an ancient Incan city in the Andes Mountains of Peru. Known for its sophisticated dry-stone walls, terraces, and panoramic views, it's a UNESCO World Heritage site.",
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "1100"
+  },
+  {
+    "id": "rec6",
+    "name": "Santorini",
+    "info": "Santorini is a Greek island famous for its whitewashed buildings, blue-domed churches, and stunning sunsets over the Aegean Sea. A top destination for romantic getaways.",
+    "image": "https://images.unsplash.com/photo-1696519669474-3001c0e2b548?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "900"
+  },
+  {
+    "id": "rec7",
+    "name": "Colosseum",
+    "info": "The Colosseum in Rome, Italy, is an ancient amphitheater known for gladiator battles and grand architecture. It remains an iconic symbol of Roman history and culture.",
+    "image": "https://plus.unsplash.com/premium_photo-1676188130387-c4a47e2d4e12?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "850"
+  },
+  {
+    "id": "rec8",
+    "name": "Taj Mahal",
+    "info": "The Taj Mahal in Agra, India, is a stunning white marble mausoleum built by Mughal Emperor Shah Jahan. Known for its beautiful architecture and romantic story, it’s a UNESCO World Heritage site.",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "950"
+  },
+  {
+    "id": "rec9",
+    "name": "Niagara Falls",
+    "info": "Niagara Falls is a group of three waterfalls at the border of the USA and Canada. Visitors enjoy boat tours, scenic viewpoints, and vibrant night illuminations.",
+    "image": "https://plus.unsplash.com/premium_photo-1697730069404-280d3289650f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "700"
+  },
+  {
+    "id": "rec10",
+    "name": "Sydney Opera House",
+    "info": "The Sydney Opera House in Australia is an architectural masterpiece and performing arts venue, known for its iconic sail-shaped design and cultural significance.",
+    "image": "https://plus.unsplash.com/premium_photo-1697730221799-f2aa87ab2c5d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "1000"
+  }
+]

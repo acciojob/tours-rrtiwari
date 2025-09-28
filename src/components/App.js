@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import Tours from "./Tours";
 import Loading from "./Loading";
 import { Container, Button, Typography } from "@material-ui/core";
-
-const url = "https://www.course-api.com/react-tours-project";
+import toursData from "../data/tours.json";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -11,16 +10,10 @@ function App() {
 
   function fetchTours() {
     setLoading(true);
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        setTours(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.log(error);
-        setLoading(false);
-      });
+    setTimeout(function () {
+      setTours(toursData);
+      setLoading(false);
+    }, 1000); // simulate network delay
   }
 
   useEffect(function () {
@@ -28,15 +21,14 @@ function App() {
   }, []);
 
   function removeTour(id) {
-    const newTours = tours.filter(function (tour) {
-      return tour.id !== id;
-    });
-    setTours(newTours);
+    setTours(
+      tours.filter(function (tour) {
+        return tour.id !== id;
+      })
+    );
   }
 
-  if (loading) {
-    return <Loading />;
-  }
+  if (loading) return <Loading />;
 
   if (tours.length === 0) {
     return (
@@ -62,3 +54,4 @@ function App() {
 }
 
 export default App;
+
