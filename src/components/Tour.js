@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Button,
-  Box,
-} from "@material-ui/core";
+import { Card, CardContent, CardMedia, Typography, Button, Box } from "@material-ui/core";
 
 function Tour(props) {
   const [readMore, setReadMore] = useState(false);
@@ -21,32 +14,21 @@ function Tour(props) {
 
   return (
     <Card style={{ borderRadius: 12, boxShadow: "0 3px 6px rgba(0,0,0,0.2)" }}>
-      <CardMedia
-        component="img"
-        height="200"
-        image={props.image}
-        alt={props.name}
-      />
+      <CardMedia component="img" height="200" image={props.image} alt={props.name} />
       <CardContent id={"main"}>
         <Box display="flex" justifyContent="space-between" marginBottom={2}>
           <Typography variant="h6" style={{ fontWeight: "bold" }}>
             {props.name}
           </Typography>
-          <Typography
-            variant="h6"
-            color="primary"
-            style={{ fontWeight: "bold" }}
-          >
+          <Typography variant="h6" color="primary" style={{ fontWeight: "bold" }}>
             ${props.price}
           </Typography>
         </Box>
-        <Typography
-          id={"tour-item-para-" + props.id}
-          variant="body2"
-          color="textSecondary"
-        >
+
+        <Typography id={"tour-item-para-" + props.id} variant="body2" color="textSecondary">
           {readMore ? props.info : props.info.slice(0, 200) + "..."}
           <Button
+            id={"see-more-" + props.id}
             size="small"
             onClick={toggleReadMore}
             style={{ textTransform: "none", marginLeft: 8 }}
@@ -54,6 +36,7 @@ function Tour(props) {
             {readMore ? "See Less" : "Show More"}
           </Button>
         </Typography>
+
         <Button
           variant="outlined"
           color="secondary"
@@ -70,3 +53,4 @@ function Tour(props) {
 }
 
 export default Tour;
+
