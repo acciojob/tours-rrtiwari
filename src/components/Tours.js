@@ -1,6 +1,6 @@
 import React from "react";
-import Tour from "./Tour";
 import { Grid } from "@material-ui/core";
+import Tour from "./Tour";
 
 function Tours(props) {
   return (
@@ -24,4 +24,3 @@ function Tours(props) {
 }
 
 export default Tours;
-
